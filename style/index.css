@@ -1,0 +1,170 @@
+      body {
+        font-family: Arial;
+        background-image: url(../images/blockchain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      }
+      header {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        padding-bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 100px;
+      }
+      #header-links{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        
+      }
+      .link {
+        color: white;
+        margin-left: 10px;
+        text-decoration: none;
+        font-size: 12px;
+        flex: 1;
+        cursor: pointer;
+      }
+      .link:active{
+        text-decoration: underline;
+      }
+      .link:hover{
+        font-weight: bold;
+      }
+      #web-title{
+        display: inline-block;
+        width: 150px;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      #hero-details{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 10px;
+        height: 250px;
+      }
+      #hero-text{
+        width: 400px;
+        margin-bottom: 30px;
+        font-size: 50px;
+      }
+      #hero-button{
+        background: none;
+        border-color: white;
+        border-style: solid;
+        color: white;
+        padding: 8px 16px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      #benefit{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin: 100px;
+        margin-top: 50px;
+        justify-content: space-between;
+      }
+      .card{
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 1px 5px rgba(255, 255, 255, 1);
+        margin-right: 30px;
+        color: black;
+        padding: 20px 20px;
+        width: 200px;
+        height: 220px;
+      }
+      .icons{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px;
+      }
+      .card-title{
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        margin-bottom: 20px;
+      }
+      .card-detail{
+        font-size: 12px;
+      }
+      #img-box{
+        display: inline-block;
+      }
+      #social-proof{
+        display: flex;
+        flex-direction: row;
+        
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 50px 50px;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 1px 5px rgba(255, 255, 255, 1);
+        min-width: 600px;
+        margin-bottom: 100px;
+        }
+      #social-img{
+        height: 400px;
+        width: 300px;
+        object-fit: cover;
+      }
+      #social-detail{
+        flex: 1;
+        color: black; 
+        margin-left: 40px;       
+      }
+      .social{
+        font-size: 8px;
+        color: rgb(135, 20, 5);
+        margin-bottom: 20px;
+      }
+      #social-text{
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+      .story-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 60px;
+        row-gap: 40px;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 50px 50px;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 1px 5px rgba(255, 255, 255, 1);
+        min-width: 600px;
+        margin-bottom: 100px;
+      } 
+      .story-img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+      }
+      .story-header{
+        font-size: 10px;
+        color: rgb(135, 20, 5);
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .story-info{
+        font-size: 18px;
+      }
+      .story-detail{
+        color: black;
+        height: 300px;
+        width: 300px;
+      }
+      .story{
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
